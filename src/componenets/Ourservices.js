@@ -11,8 +11,8 @@ const Ourservices = () => {
                     <div className="row">
                         {servicesArr?.map((services, index) => {
                             return <>
-                                <div style={{padding: "70px 0"}} className={`col-md-4 ${(index+1)%2 === 0 ? "bg-black" : 'bg-black bg-opacity-50'} bg-dark text-center`}>
-                                    <img src={`img/icon-image${index+1}.png`} alt="" srcset="" />
+                                <div key={index} style={{padding: "70px 0"}} className={`col-md-4 ${(index+1)%2 === 0 ? "bg-black" : 'bg-black bg-opacity-50'} bg-dark text-center`}>
+                                    <img src={`img/icon-image${index+1}.png`} alt="" />
                                     <p className="fw-bolder mt-4 text-white">
                                         {services}
                                     </p>

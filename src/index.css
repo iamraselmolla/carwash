@@ -42,3 +42,10 @@ code {
 .package_list li {
   padding: 7px 0;
 }
+
+.price_plan{
+  transition: all linear 0.2s;
+}
+.price_plan:hover{
+  margin-top: 5px;
+}

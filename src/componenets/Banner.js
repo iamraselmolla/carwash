@@ -7,10 +7,10 @@ const Banner = () => {
                 <div className="container">
                     <div className="row mt-5">
                         <div className="col-md-6">
-                            <h3 style={{ fontSize: "40px;" }}>
+                            <h3 style={{ fontSize: "40px" }}>
                                 'Tired' of all these
                             </h3>
-                            <h1 style={{ color: "rgb(0, 139, 211)", fontSize: "80px;", fontWeight: "900;" }}>
+                            <h1 style={{ color: "rgb(0, 139, 211)", fontSize: "80px", fontWeight: "900" }}>
                                 Cleaning?
 
                             </h1>
@@ -41,21 +41,21 @@ const Banner = () => {
                             </div>
                         </div>
                         <div className="icon">
-                            <div className="icon_box  bg-white text-center" style={{ borderColor: "#008bd3;" }}>
+                            <div className="icon_box  bg-white text-center" style={{ borderColor: "#008bd3" }}>
                                 <div>
                                     <img src="img/icon12.png" alt="" />
                                 </div>
                             </div>
                         </div>
                         <div className="icon">
-                            <div className="icon_box  bg-white text-center" style={{ borderColor: "#fe4365;" }}>
+                            <div className="icon_box  bg-white text-center" style={{ borderColor: "#fe4365" }}>
                                 <div>
                                     <img src="img/icon13.png" alt="" />
                                 </div>
                             </div>
                         </div>
                         <div className="icon">
-                            <div className="icon_box  bg-white text-center" style={{ borderColor: "#74bb20;" }}>
+                            <div className="icon_box  bg-white text-center" style={{ borderColor: "#74bb20" }}>
                                 <div>
                                     <img src="img/icon14.png" alt="" />
                                 </div>
