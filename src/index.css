@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.banner {
+  min-height: 450px;
+}
+
+
+.icon_box {
+
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px solid;
+  display: inline-block;
+  line-height: 190px;
+  border-color: #ffc000;
+  line-height: 130px;
+  text-align: center;
+  margin: 5px;
+
+}
+
+.theme_color {
+  color: #74bb20;
+}
+.theme_bg {
+  background-color: #74bb20;
+}
+
+.package_list li {
+  padding: 7px 0;
+}
