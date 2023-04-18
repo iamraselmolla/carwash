@@ -1,19 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Banner from './componenets/Banner';
-import Ourservices from './componenets/Ourservices';
-import Plans from './componenets/Plans';
-import Footer from './componenets/Footer';
-import Menu from './componenets/Menu';
+
+import { RouterProvider } from 'react-router-dom';
+import { router } from './componenets/router/router';
+import Home from './componenets/home/Home';
 
 function App() {
   return (
     <div className="App">
-      <Menu></Menu>
-     <Banner></Banner>
-     <Ourservices></Ourservices>
-     <Plans></Plans>
-     <Footer></Footer>
+
+      <RouterProvider router={router}>
+
+      </RouterProvider>
     </div>
   );
 }

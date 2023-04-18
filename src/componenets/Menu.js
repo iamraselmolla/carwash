@@ -6,13 +6,13 @@ const Menu = () => {
     return (
         <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand className='fw-bolder fs-3' href="#home">Car Wash</Navbar.Brand>
+          <Link className="text-decoration-none"  to="/"><Navbar.Brand className='fw-bolder fs-3' href="#home">Car Wash</Navbar.Brand></Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Link to="#">Login</Link>
-              <Link to="#">Register</Link>
-              <Link to="#">Upcoming Schedule</Link>
+              <Link className='fw-bolder px-3 text-decoration-none text-dark' to="/login">Login</Link>
+              <Link className='fw-bolder px-3 text-decoration-none text-dark' to="/register">Register</Link>
+              <Link className='fw-bolder px-3 text-decoration-none text-dark' to="#">Upcoming Schedule</Link>
              
             </Nav>
           </Navbar.Collapse>

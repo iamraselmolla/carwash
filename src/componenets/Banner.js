@@ -19,10 +19,9 @@ const Banner = () => {
                                 appoinment now and enjoy the service.
                             </p>
                             <div className="d-flex gap-3 ">
-                                <button type="button" className="btn btn-outline-success">Book Now</button>
-                                OR
-                                <button type="button" className="btn btn-outline-success">Get an Appoinment</button>
-
+                                <button type="button" className="border-0 rounded px-5 py-3 me-2 fw-bolder text-white theme_bg">Book Now</button>
+                                <button type="button" className="border-0 rounded px-5 py-3 me-2 fw-bolder text-white theme_bg">Get Appoinment</button>
+                           
 
                             </div>
                         </div>
