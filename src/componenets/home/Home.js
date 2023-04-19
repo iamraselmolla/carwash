@@ -4,7 +4,8 @@ import Banner from '../Banner';
 import Ourservices from '../Ourservices';
 import Plans from '../Plans';
 import Footer from '../Footer';
-import Services from '../services/Services';
+import OurNumber from '../ourNumber/OurNumber';
+import Whyweare from '../WhyWeAre/Whyweare';
 
 const Home = () => {
     return (
@@ -12,7 +13,8 @@ const Home = () => {
             <Banner></Banner>
             <Ourservices></Ourservices>
             <Plans></Plans>
-            <Services></Services>
+            <OurNumber></OurNumber>
+            <Whyweare></Whyweare>
         </>
     );
 };
